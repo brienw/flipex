@@ -2,12 +2,15 @@ defmodule TextFlip.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :textflip,
+    [app: :flip_text,
      version: "0.1.0",
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: deps()]
+     description: description(),
+     package: package(),
+     deps: deps()
+    ]
   end
 
   # Configuration for the OTP application
@@ -18,17 +21,18 @@ defmodule TextFlip.Mixfile do
   end
 
   defp deps do
-    []
+    [{:ex_doc, ">= 0.0.0", only: :dev}]
   end
 
   defp description do
     """
-    A simple text flipping libary
+    ˙ʎɹɐɹqıʃ ƃuıddıʃɟ ʇxǝʇ ǝʃdɯıs ∀
     """
   end
 
   defp package do
     [
+      name: "flip_text",
       maintainers: ["Brien Wankel"],
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/brienw/flipex"}

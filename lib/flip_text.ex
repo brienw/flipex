@@ -1,4 +1,4 @@
-defmodule TextFlip do
+defmodule FlipText do
 
   @flip_table %{
     "P" => "Ԁ", "i" => "ı", "‾" => "_", "g" => "ƃ", "a" => "ɐ", "E" => "Ǝ",
