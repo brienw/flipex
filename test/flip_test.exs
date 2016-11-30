@@ -1,6 +1,6 @@
-defmodule FlipTest do
+defmodule TextFlipTest do
   use ExUnit.Case
-  doctest Flip
+  doctest TextFlip
 
   test "the truth" do
     assert 1 + 1 == 2
