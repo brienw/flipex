@@ -3,13 +3,13 @@ defmodule TextFlip.Mixfile do
 
   def project do
     [app: :flip_text,
-     version: "0.1.0",
+     version: "0.1.1",
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     description: description(),
-     package: package(),
-     deps: deps()
+     description: description,
+     package: package,
+     deps: deps
     ]
   end
 
