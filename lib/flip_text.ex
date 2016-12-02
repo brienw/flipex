@@ -1,4 +1,7 @@
 defmodule FlipText do
+  @moduledoc """
+  A simple text flipper.
+  """
 
   @flip_table %{
     "P" => "Ԁ", "i" => "ı", "‾" => "_", "g" => "ƃ", "a" => "ɐ", "E" => "Ǝ",
@@ -23,6 +26,17 @@ defmodule FlipText do
     "Ɛ" => "3", "c" => "ɔ", "w" => "ʍ", "]" => "[", "Ↄ" => "C", "∀" => "A",
     "∴" => "∵", "W" => "M", "ᴎ" => "N", "G" => "⅁"}
 
+
+  @doc """
+  Attempt to flip a string of text upside down.
+
+  # Example
+
+  ```
+  iex> FlipText.flip "hello world"
+  "pןɹoʍ oןןǝɥ"
+  ```
+  """
   def flip([]), do: nil
   def flip([chr]) do
     case @flip_table[chr] do
