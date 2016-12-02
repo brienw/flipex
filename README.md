@@ -1,7 +1,7 @@
 # TextFlip
-[![CircleCI](https://circleci.com/gh/brienw/flipex.svg?style=shield)](https://circleci.com/gh/labzero/hedwig_simple_responders)
-[![Hex.pm](https://img.shields.io/hexpm/v/flip_text.svg)]()
-[![Hex.pm](https://img.shields.io/hexpm/dt/flip_text.svg)](https://hex.pm/)
+[![CircleCI](https://circleci.com/gh/brienw/flipex.svg?style=shield)](https://circleci.com/gh/brienw/flipex)
+[![Hex.pm](https://img.shields.io/hexpm/v/flip_text.svg)](https://hex.pm/packages/flip_text)
+[![Hex.pm](https://img.shields.io/hexpm/dt/flip_text.svg)](https://hex.pm/packages/flip_text)
 
 ˙ʎɹɐɹqıʃ ƃuıddıʃɟ ʇxǝʇ ǝʃdɯıs ∀
 
