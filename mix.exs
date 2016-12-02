@@ -21,7 +21,10 @@ defmodule TextFlip.Mixfile do
   end
 
   defp deps do
-    [{:ex_doc, ">= 0.0.0", only: :dev}]
+    [
+      {:ex_doc, ">= 0.0.0", only: :dev},
+      {:junit_formatter, "~> 1.2"}
+    ]
   end
 
   defp description do

@@ -1,6 +1,6 @@
 # TextFlip
 
-**TODO: Add description**
+˙ʎɹɐɹqıʃ ƃuıddıʃɟ ʇxǝʇ ǝʃdɯıs ∀
 
 ## Installation
 

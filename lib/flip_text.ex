@@ -31,7 +31,7 @@ defmodule FlipText do
     end
   end
   def flip(text) when is_binary(text) and is_bitstring(text), do: flip(String.codepoints text)
-  def flip([h | t] = text), do: flip(t) <> flip(h)
+  def flip([h | t]), do: flip(t) <> flip(h)
   def flip(chr) do
     case @flip_table[chr] do
       nil -> chr
