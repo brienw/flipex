@@ -33,8 +33,8 @@ defmodule FlipText do
   # Example
 
   ```
-  iex> FlipText.flip "hello world"
-  "pןɹoʍ oןןǝɥ"
+  iex> FlipText.flip "text"
+  "ʇxǝʇ"
   ```
   """
   def flip([]), do: nil
