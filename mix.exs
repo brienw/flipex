@@ -3,7 +3,7 @@ defmodule TextFlip.Mixfile do
 
   def project do
     [app: :flip_text,
-     version: "0.1.1",
+     version: "0.1.2",
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -23,7 +23,7 @@ defmodule TextFlip.Mixfile do
   defp deps do
     [
       {:ex_doc, ">= 0.0.0", only: :dev},
-      {:junit_formatter, "~> 1.2"}
+      {:junit_formatter, "~> 1.2", only: :test}
     ]
   end
 
